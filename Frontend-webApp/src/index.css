@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+
+/* Container style - keeping for backward compatibility */
+.container {
+  background-color: #323d42;
+  border-radius: 10px;
+}
