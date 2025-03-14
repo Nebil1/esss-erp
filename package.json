@@ -1,0 +1,21 @@
+{
+  "name": "esss",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "cd Frontend-webApp && npm run build",
+    "glogin": "clasp login",
+    "glogout": "clasp logout",
+    "gcreate": "clasp create --title 'ESSS web app' --rootDir ./Backend-GAS",
+    "gpush": "clasp push",
+    "gclone": "clasp clone 1BmCijkt9IxVf8KeiAAp1ZvicUNCRHL1LfOfsKLT1UB-2rjLNhGtOoRpd --rootDir ./Backend-GAS",
+    "copy-build": "node ./Frontend-webApp/copy_build_files.js",
+    "deploy": "npm run build && npm run copy-build && clasp push --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.96"
+  }
+}

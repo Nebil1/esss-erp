@@ -1,0 +1,28 @@
+# Node.js dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Production build files
+/dist
+
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# Google Apps Script-specific files
+# Ignore gas config and credentials if applicable
+.clasp.json
+# Ignore logs and credentials files
+*.log
+credentials.json
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Ignore any other OS-specific files
+Thumbs.db
